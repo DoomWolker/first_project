@@ -2,7 +2,7 @@
 font-family: 'Oswald', sans-serif; */
 
 body {
-  background-image: url(https://images.alphacoders.com/736/thumb-1920-736461.png);
+  background-image: url(https://images.alphacoders.com/736/thumb-1920-736461.png) center no-repeat fixed;
   background-size: cover;
 }
 
