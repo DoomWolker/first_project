@@ -1,0 +1,109 @@
+/* font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif; */
+
+body {
+  background-image: url(https://images.alphacoders.com/736/thumb-1920-736461.png);
+  background-size: cover;
+}
+
+header {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: #758ea7;
+  margin: -26px -6px 0px -6px;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Отступ слов друг от друга */
+.search {
+  margin-right: 20px;
+}
+
+/* Полоска + время отдаления */
+.search a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: darkorange;
+}
+
+/* Отдаление */
+.search:hover a {
+  font-size: 40px;
+}
+
+/* Информация про поисковики */
+
+.second_body {
+  background-image: url(https://on-desktop.com/wps/Anime_Anime_character_with_a_pirate_tattoo_on_her_back_108194_.jpg);
+  background-size: cover;
+}
+
+/* Главный бокс */
+.second_main_content {
+  display: flex;
+  font-size: 20px;
+  margin: 30px 23px 0 30px;
+  font-family: "Lora", serif;
+}
+
+/* Текст про поисковики */
+.second_text {
+  background-color: #fff;
+  padding: 10px 7px 20px 10px;
+  margin-right: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px 6px darkslategray;
+  opacity: 85%;
+}
+
+/* Картинки к поисковикам */
+.pictures {
+  background: white;
+  border-radius: 8px;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 0 30px 6px darkslategray;
+  margin-bottom: px;
+  opacity: 85%;
+}
+
+/* Ссылка на поисковик */
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  color: black;
+  background: white;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 30px 6px darkslategray;
+  text-align: center;
+  margin-top: 46px;
+  padding-top: 25px;
+  width: 300px;
+  height: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.04);
+}
